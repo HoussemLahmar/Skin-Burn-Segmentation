@@ -112,24 +112,7 @@ pip install -r requirements.txt
 
 ---
 
-## Structure du projet
 
-```
-.
-├── data/                    # Données brutes (images + labels)
-├── src/
-│   ├── datasets.py          # Chargement et parsing YOLO
-│   ├── augmentations.py     # Définitions Albumentations
-│   ├── models.py            # U‑Net et choix d’encodeurs
-│   ├── train.py             # Boucle d’entraînement
-│   ├── evaluate.py          # Scripts d’évaluation
-│   └── utils.py             # Callbacks, métriques, visualisations
-├── config.yaml              # Configuration générale
-├── requirements.txt         # Dépendances Python
-└── README.md                # Ce document
-```
-
----
 
 ## Pipeline de traitement
 
@@ -180,10 +163,4 @@ Les contributions sont les bienvenues !
 
 ---
 
-## Licence
 
-Ce projet est mis à disposition sous licence **MIT**.
-Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-```
-```
